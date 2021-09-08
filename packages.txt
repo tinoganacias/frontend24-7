@@ -1,0 +1,30 @@
+npm init
+
+npm i express mysql2 sequelize
+
+npm i bcrypt
+
+npm i jsonwebtoken
+
+npm i axios
+in src/app.js ======>
+//////////////////////////////////////////
+//  import axios from "axios"; // 
+//////////////////////////////////////////
+function App() {
+    useEffect(()=>{
+        axios.get(http://localhost:3001).then(res=>{
+            console.log(res.data);
+        }).catch(err=>{
+            console.log(err);
+        })
+    },[])
+    return (
+        <div>
+            <h1>welcome!</h1>
+        </div>
+    );
+} 
+//////////////////////////////////////////
+
+npm i cors
