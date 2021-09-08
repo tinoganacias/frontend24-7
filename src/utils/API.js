@@ -1,6 +1,6 @@
 const axios = require("axios");
-// const URL_PREFIX = "http://localhost:3001";
-const URL_PREFIX = "https://tg-247back.herokuapp.com/";
+const URL_PREFIX = "http://localhost:3001";
+// const URL_PREFIX = "https://tg-247back.herokuapp.com/";
 
 //TODO: Change url to deployed heroku url and comment out localhost
 // const URL_PREFIX = "**heroku website url**"
